@@ -1,0 +1,86 @@
+.container-signup {
+    text-align: center;
+    border-radius: 25px;
+    background-color: #090808;
+    opacity: 0.9;
+    max-height: 90vh;
+    width: 700px;
+    margin: 100px auto;
+    padding: 25px;
+}
+
+.container-signup .error {
+    color: red;
+}
+
+.container-signup h1 {
+    color: #15cdfc;
+    margin: 5px 15px 15px;
+    letter-spacing: 2px
+}
+
+.container-signup p {
+    color: white;
+    margin: 5px;
+}
+
+.container-signup label {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    margin: 25px auto;
+}
+
+.container-signup input {
+    width: 250px;
+    display: inline-block;
+    padding: 5px;
+    margin: 0 25px 10px;
+}
+
+#email-field {
+    margin-left: 100px;
+}
+
+#username-field {
+    margin-left: 64px;
+}
+
+#password-field {
+    margin-left: 68px;
+}
+
+
+.register {
+    font-size: 21px;
+    border-radius: 4px;
+    background: #256ce1;
+    padding: 10px 22px;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.register:hover {
+    transition: all 0.2s ease-in-out;
+    background: #fff;
+    color: #010606;
+}
+
+.redirect {
+    color: white;
+}
+
+.redirect a {
+    color: #15cdfc;
+}
+
+.redirect a:hover {
+    color: deeppink;
+}

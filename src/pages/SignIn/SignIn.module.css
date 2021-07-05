@@ -1,0 +1,76 @@
+.container-sign-in {
+    text-align: center;
+    border-radius: 25px;
+    background-color: #090808;
+    opacity: 0.9;
+    width: 700px;
+    margin: 100px auto;
+    padding: 25px;
+}
+
+.container-sign-in h1 {
+    color: #15cdfc;
+    letter-spacing: 2px;
+}
+
+.container-sign-in form .error {
+    color: red;
+}
+
+.container-sign-in label {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    margin: 25px auto;
+}
+
+#username-login {
+    margin-left: 100px;
+}
+
+#password-login {
+    margin-left: 106px;
+}
+
+.container-sign-in input {
+    width: 250px;
+    display: inline-block;
+    padding: 5px;
+    margin: 0 25px 10px;
+}
+
+.login {
+    font-size: 21px;
+    border-radius: 4px;
+    background: #256ce1;
+    padding: 10px 22px;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    margin-bottom: 20px;
+
+}
+
+.login:hover {
+    transition: all 0.2s ease-in-out;
+    background: #fff;
+    color: #010606;
+}
+
+
+.redirect-sign-in {
+    color: white;
+}
+
+.redirect-sign-in a {
+    color:  #15cdfc;
+}
+
+.redirect-sign-in a:hover {
+    color: deeppink;
+}
